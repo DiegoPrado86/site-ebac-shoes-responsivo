@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    padding: 16px;
+    margin-bottom: 56px;
+    background-color: #182c61;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section h2, h3 {
+    margin-left: 16px;
+}
+
+section h2 {
+    margin-bottom: 35px;
+    border-bottom: solid 2px #182c61;
+    color: #182c61;
+}
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+.tenis img {
+    max-width: 100%;
+    margin-right: 8px;
+}
+
+section {
+    margin-bottom: 32px;
+}
+
+
+.tenis h3, p {
+    margin-left: 15px;
+}
+
+.tenis img {
+    max-width: 100%;
+    padding-left: 15px;
+}
+
+#produtos{
+    margin-right: 30px;
+}
+
+
+
+.calcados {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    column-gap: 2%;
+    row-gap: 5%;
+}
+
+button {
+    margin: 16px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #2c3980;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-style: italic;
+    border-radius: 6px;
+} 
+
+
