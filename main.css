@@ -105,38 +105,51 @@ button {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     body{
-        min-width: 768px;
+        min-width: 500px;
         display: flex;
         flex-direction: column;
+        
     }
 
     header{
-        padding: 16px 10%;
+        padding: 5px;
+        width: 400px;
+        margin-left: 15px;
+    }
+    
+
+    header h1{
+        font-size: 15px;
+        width: 400px;
+        margin-right: 60px;
+        padding-left: 10px;
     }
 
-    h1{
-        font-size: 2.5em;
+    header nav a {
+        font-size: 10px;
+        
     }
 
-    h2{
-        font-size: 2em;
+    header nav ul li a {
+        
     }
 
-    header a{
-        font-size: 1.5em;
-    }
 
     #sobre-a-loja img {
         margin-left: 16px;
+        width:400px;
 
     }
 
     section .container {
+        
         display: block;
+        
     }
 
     section h2, h3 {
-        margin-right: 365px;
+        width: 350px;
+        margin-right: 150px;
         font-size: 1em;
     }
 
@@ -148,6 +161,24 @@ button {
         padding: 16px 10%;
     }
     
-        
+    .conteudo {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
 
+    .calcados {
+        width: 400px;
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        column-gap: 10%;
+        row-gap: 5%;
+    }
+
+    .produtos {
+        height: 100px;
+        width: 250px;
+        position: absolute;
+        top: 1px;
+    
+    
 }
