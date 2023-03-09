@@ -104,47 +104,29 @@ button {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
-    body{
-        min-width: 500px;
-        display: flex;
-        flex-direction: column;
-        
-    }
-
     header{
         padding: 5px;
-        width: 400px;
+        width: 500px;
         margin-left: 15px;
     }
-    
-
     header h1{
         font-size: 15px;
-        width: 400px;
+        width: 500px;
         margin-right: 60px;
         padding-left: 10px;
     }
 
     header nav a {
         font-size: 10px;
-        
     }
-
-    header nav ul li a {
-        
-    }
-
 
     #sobre-a-loja img {
         margin-left: 16px;
-        width:400px;
-
+        width:700px;
     }
 
-    section .container {
-        
-        display: block;
-        
+    section .container { 
+        display: block; 
     }
 
     section h2, h3 {
@@ -163,7 +145,8 @@ button {
     
     .conteudo {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 46% 46%;
+        column-gap: 8%;
     }
 
     .calcados {
@@ -178,7 +161,6 @@ button {
         height: 100px;
         width: 250px;
         position: absolute;
-        top: 1px;
-    
-    
+        top: 1px;    
+    }
 }
