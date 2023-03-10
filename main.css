@@ -196,7 +196,7 @@ button {
         top: 1px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
     header{
         padding: 20px;
@@ -238,4 +238,10 @@ button {
         display: grid;
         grid-template-columns: 70% 30%;
     }
+
+    .calcados {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
 }
