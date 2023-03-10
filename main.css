@@ -11,6 +11,24 @@ header {
     background-color: #182c61;
 }
 
+.container2 {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+section .container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     max-width: 1024px;
     width: 100%;
@@ -18,7 +36,7 @@ header {
 }
 
 header .container {
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
@@ -64,7 +82,6 @@ section {
     margin-bottom: 32px;
 }
 
-
 .tenis h3, p {
     margin-left: 15px;
 }
@@ -77,8 +94,6 @@ section {
 #produtos{
     margin-right: 30px;
 }
-
-
 
 .calcados {
     display: grid;
@@ -104,29 +119,47 @@ button {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
+    body{
+        min-width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
     header{
         padding: 5px;
-        width: 500px;
+        width: 400px;
         margin-left: 15px;
     }
+    
+
     header h1{
         font-size: 15px;
-        width: 500px;
+        width: 400px;
         margin-right: 60px;
         padding-left: 10px;
     }
 
     header nav a {
         font-size: 10px;
+        
     }
+
 
     #sobre-a-loja img {
         margin-left: 16px;
-        width:700px;
+        width:400px;
     }
 
-    section .container { 
-        display: block; 
+    section .container {
+        
+        display: block;
+        
+    }
+
+    section .container2 {
+        
+        display: block;
+        
     }
 
     section h2, h3 {
@@ -145,8 +178,7 @@ button {
     
     .conteudo {
         display: grid;
-        grid-template-columns: 46% 46%;
-        column-gap: 8%;
+        grid-template-columns: 60% 40%;
     }
 
     .calcados {
@@ -161,6 +193,49 @@ button {
         height: 100px;
         width: 250px;
         position: absolute;
-        top: 1px;    
+        top: 1px;
+    }
+}
+@media (max-width: 768px) {
+
+    header{
+        padding: 20px;
+        width: 250px;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+
+    header a {
+        font-size: 12px;
+    }
+    
+    section .container2{
+        display: block ;
+    }
+
+    #sobre-a-loja img {
+        margin-left: 6px;
+        width:90%;
+    
+    }
+
+    .sobreloja {
+        display: flex;
+        margin: 10px;
+    }
+
+    .textoloja h2 {
+        font-size: 20px;
+    }
+
+    .textoloja h3 {
+        font-size: 15px;
+    }
+
+    .conteudo {
+        display: grid;
+        grid-template-columns: 70% 30%;
     }
 }
