@@ -141,7 +141,6 @@ button {
 
     header nav a {
         font-size: 10px;
-        
     }
 
 
@@ -151,13 +150,10 @@ button {
     }
 
     section .container {
-        
         display: block;
-        
     }
 
     section .container2 {
-        
         display: block;
         
     }
@@ -178,7 +174,13 @@ button {
     
     .conteudo {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 52% 46%;
+        column-gap: 2%;
+        
+    }
+
+    .tenis img {
+        max-width: 100%;
     }
 
     .calcados {
@@ -195,6 +197,11 @@ button {
         position: absolute;
         top: 1px;
     }
+
+    section .produtos h2 {
+        
+    }
+
 }
 @media (max-width: 767px) {
 
@@ -223,6 +230,7 @@ button {
 
     .sobreloja {
         display: flex;
+        flex-direction: column;
         margin: 10px;
     }
 
