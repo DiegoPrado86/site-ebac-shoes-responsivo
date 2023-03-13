@@ -236,10 +236,23 @@ button {
         margin-left: 45px;
     }
     
+    .product h2 {
+        font-size: 15px;
+    }
 
-    .product p {
+    .info_tenis h3 {
+        font-size: 15px;
+    }
+
+    .info_tenis p {
         font-size: 10px;
     }
+
+    .button_add  button {
+        width: 100%;
+        padding: 4px 0 0 0;
+    }
+    
 
     .calcados {
         display: grid;
