@@ -223,6 +223,14 @@ button {
         margin-left: 45px;
     }
 
+    .calcados {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
+        row-gap: 1%;
+        width: 77%;
+    }
+
     .textoloja h2 {
         width: 80%;
         font-size: 15px;
@@ -248,17 +256,11 @@ button {
         font-size: 10px;
     }
 
-    .button_add  button {
+    .button_add {
         width: 100%;
-        padding: 4px 0 0 0;
-    }
-    
-
-    .calcados {
-        display: grid;
-        grid-template-columns: 48% 48%;
-        column-gap: 4%;
-        width: 77%;
+        margin-right: 85px;
+        
+        
     }
 
 }
