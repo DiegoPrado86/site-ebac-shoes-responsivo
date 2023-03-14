@@ -116,20 +116,19 @@ button {
 
     header h1 {
         font-size: 22px;
-        margin-left: 180px;
+        margin-left: 85px;
     }
 
     header nav li a {
         font-size: 15px;
-        padding-right: 35px;
+        padding-right: 89px;
+        margin-left: -100px;
     }
-
 
     .conteudo,
     .container {
         padding: 1px;
         display: block;
-        width: 100%;
     }
 
     #sobre-a-loja img {
@@ -137,23 +136,23 @@ button {
         max-width: 100%;
         height: 50%;
         margin-bottom: 45px;
-        margin-left: 200px;
+        margin-left: 100px;
     }
 
     .textoloja {
-        width: 100%;
+        width: 80%;
     }
 
     .textoloja h2, h3 {
         text-align: left;
         width: 85%;
-        margin-left: 196px;
+        margin-left: 100px;
     }
 
     .product {
         text-align: left;
         width: 85%;
-        margin-left: 180px;
+        margin-left: 85px;
     }  
 
     .calcados {
@@ -161,7 +160,7 @@ button {
         grid-template-columns: 49% 49%;
         column-gap: 1%;
         width: 80%;
-        margin-left: 180px;
+        margin-left: 85px;
     }
 
     .info_tenis h3, p {
@@ -261,7 +260,6 @@ button {
 
     .button_add button{
         width: 60%;
-        
         margin-left: 60px;
 
     }
