@@ -207,6 +207,9 @@ button {
         padding: 3px;
     }
 
+    .conteudo {
+        margin-left: 10px;
+    }
     
     .container {
         max-width: 100%;
