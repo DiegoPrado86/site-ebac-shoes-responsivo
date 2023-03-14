@@ -225,11 +225,9 @@ button {
     }
 
     .calcados {
-        display: grid;
-        grid-template-columns: 49% 49%;
-        column-gap: 2%;
-        row-gap: 1%;
+        display: block ;
         width: 80%;
+        height: 10%;
     }
 
     .textoloja h2 {
@@ -252,22 +250,26 @@ button {
     .info_tenis h3 {
         font-size: 15px;
         text-align: center;
+        margin: -20px;
     }
-
     .info_tenis p {
         font-size: 10px;
         text-align: center;
+        margin: 50px;
     }
 
     .button_add button{
-        width: 90%;
+        width: 60%;
         padding: 4px;
+        margin-left: 60px;
         
     }
 
     .info_tenis button {
         font-size: 10px;
         text-align: center;
+        margin-top: -30px;
+        
     }
 
 }
