@@ -1,3 +1,5 @@
+
+
 * {
     padding: 0;
     margin: 0;
@@ -104,42 +106,38 @@ button {
 
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
+
     header {
-        width:100%;
+        width: 100%;
         padding: 20px;
         position: fixed;
     }
 
-    header .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
     header h1 {
-        font-size: 25px;
+        font-size: 22px;
+        margin-left: 180px;
     }
 
-    header a {
+    header nav li a {
         font-size: 15px;
+        padding-right: 35px;
     }
+
 
     .conteudo,
     .container {
         padding: 1px;
         display: block;
-    }
-
-
-    main {
-        padding: 1px;
+        width: 100%;
     }
 
     #sobre-a-loja img {
+        margin-top: 85px;
         max-width: 100%;
         height: 50%;
         margin-bottom: 45px;
-        margin-left: 60px;
+        margin-left: 200px;
     }
 
     .textoloja {
@@ -149,51 +147,48 @@ button {
     .textoloja h2, h3 {
         text-align: left;
         width: 85%;
-        margin-left: 75px;
+        margin-left: 196px;
     }
 
     .product {
         text-align: left;
         width: 85%;
-        margin-left: 63px;
+        margin-left: 180px;
     }  
 
     .calcados {
         display: grid;
         grid-template-columns: 49% 49%;
         column-gap: 1%;
-        width: 79%;
-    }
-
-    .calcados img {
-        margin-right: 300px;
+        width: 80%;
+        margin-left: 180px;
     }
 
     .info_tenis h3, p {
         margin-bottom: 25px;
         max-width: 100%;
-    }
-
-    .button_add {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-
-    #sobre-a-loja {
         text-align: center;
-        margin-top: 85px;
-        padding: 6px;
     }
+    .button_add button{
+        width: 90%;
+        padding: 10px;
+        
+    }
+
+    .info_tenis button {
+        font-size: 15px;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 640px) {
 
     header {
         width:100%;
-        padding: 5px;
+        padding: 3px;
         position: fixed;
+        
     }
 
     main{
@@ -202,11 +197,14 @@ button {
     
 
     header h1 {
-        font-size: 15px;
+        font-size: 20px;
+        margin-left: 40px;
     }
 
     header a {
         font-size: 10px;
+        float: left;
+        padding: 3px;
     }
 
     
@@ -225,10 +223,10 @@ button {
 
     .calcados {
         display: grid;
-        grid-template-columns: 48% 48%;
-        column-gap: 4%;
+        grid-template-columns: 49% 49%;
+        column-gap: 2%;
         row-gap: 1%;
-        width: 77%;
+        width: 80%;
     }
 
     .textoloja h2 {
@@ -250,17 +248,23 @@ button {
 
     .info_tenis h3 {
         font-size: 15px;
+        text-align: center;
     }
 
     .info_tenis p {
         font-size: 10px;
+        text-align: center;
     }
 
-    .button_add {
-        width: 100%;
-        margin-right: 85px;
+    .button_add button{
+        width: 90%;
+        padding: 4px;
         
-        
+    }
+
+    .info_tenis button {
+        font-size: 10px;
+        text-align: center;
     }
 
 }
